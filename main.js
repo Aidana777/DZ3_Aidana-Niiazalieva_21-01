@@ -1,34 +1,31 @@
 
 // 2
 // request = prompt('')
-//   function deadline(request) {
+//   function line(request) {
 //     console.log(request.length)
 //   }
-//   deadline(request)
+//   line(request)
 // 3
-let first = prompt("first number");
-let operator = prompt("operator");
-let second = prompt("second number");
+
+let numA = Number(prompt('Ввести 1 число'))
+let operator = prompt('Symbol')
+let numB = Number(prompt('Ввести 2 число'))
 
 const calc = (a, b) => {
-    let total;
-    switch (operator) {
-        case '+':
-            console.log(a + b);
-            break;
-        case '-':
-            console.log(a - b);
-            break;
-        case '*':
-            console.log(a * b);
-            break;
-        case '/':
-            console.log(a / b);
-            break;
+    if (operator == '+') {
+        console.log(a + b + ' сложение')
+    } else if (operator == '-') {
+        console.log(a - b + ' вычитание')
+    }else if (operator == '*') {
+        console.log(a * b + ' вычитание')
+    }else if (operator == '/') {
+        console.log(a / b + ' вычитание')
+    }else{
+        console.log('Error');
     }
 }
-calc(`${first} ${operator}${second}=${total}`)
-// const nums = (c,d)=>{
+calc(numA, numB)
+//1 const nums = (c,d)=>{
 //     console.log(Math.min(7,22));
 // }
 // nums();
