@@ -17,9 +17,9 @@ const calc = (a, b) => {
     } else if (operator == '-') {
         console.log(a - b + ' вычитание')
     }else if (operator == '*') {
-        console.log(a * b + ' вычитание')
+        console.log(a * b + ' умножение')
     }else if (operator == '/') {
-        console.log(a / b + ' вычитание')
+        console.log(a / b + ' деление')
     }else{
         console.log('Error');
     }
