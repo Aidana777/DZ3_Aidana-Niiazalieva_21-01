@@ -19,7 +19,9 @@ const calc = (a, b) => {
         console.log(a * b + ' умножение')
        }else if(symbol==-'/'){
         console.log(a / b + ' деление')
-       }else
+       }else{
+        console.log('Error');
+       }
    
    
   
