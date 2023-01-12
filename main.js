@@ -13,19 +13,23 @@ let numB = Number(prompt('Ввести 2 число'))
 
 const calc = (a, b) => {
     if (operator == '+') {
-        console.log(a + b + ' сложение')
+        console.log(a, "+", b, " = ", a+b)
     } else if (operator == '-') {
-        console.log(a - b + ' вычитание')
+        console.log(a, "-", b, " = ", a-b)
     }else if (operator == '*') {
-        console.log(a * b + ' умножение')
+        console.log(a, "*", b, " = ", a*b)
     }else if (operator == '/') {
-        console.log(a / b + ' деление')
+        console.log(a, "/", b, " = ", a/b)
     }else{
         console.log('Error');
     }
 }
 calc(numA, numB)
-//1 const nums = (c,d)=>{
-//     console.log(Math.min(7,22));
+//1 
+// let numc = Number(prompt('Ввести 1 число'))
+// let numd = Number(prompt('Ввести 2 число'))
+
+// const nums = (c,d)=>{
+//     console.log(Math.min(c,d));
 // }
-// nums();
+// nums(numc,numd);
