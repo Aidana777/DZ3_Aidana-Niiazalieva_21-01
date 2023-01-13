@@ -1,11 +1,11 @@
 
 // 2
-request = prompt('')
-function line(request) {
-    return request.length
-}
-console.log(line(request));
-3
+// request = prompt('')
+// function line(request) {
+//     return request.length
+// }
+// console.log(line(request));
+// 3
 
 // let numA = Number(prompt('Ввести 1 число'))
 // let operator = prompt('Symbol')
