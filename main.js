@@ -20,7 +20,7 @@ const calc = (a, b) => {
         console.log(a, "*", b, " = ", a*b)
     }else if (operator ==='/') {
         console.log(a, "/", b, " = ", a/b)
-    }else if (numA,numB===0) {
+    }else if (numA,numB === 0) {
         console.log('Error')
     }else{
        console.log('Error'); 
