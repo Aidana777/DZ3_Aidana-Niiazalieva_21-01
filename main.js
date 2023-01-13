@@ -12,13 +12,13 @@ let operator = prompt('Symbol')
 let numB = Number(prompt('Ввести 2 число'))
 
 const calc = (a, b) => {
-    if (operator == '+') {
+    if (operator === '+') {
         console.log(a, "+", b, " = ", a+b)
-    } else if (operator == '-') {
+    } else if (operator === '-') {
         console.log(a, "-", b, " = ", a-b)
-    }else if (operator == '*') {
+    }else if (operator === '*') {
         console.log(a, "*", b, " = ", a*b)
-    }else if (operator == '/') {
+    }else if (operator == ='/') {
         console.log(a, "/", b, " = ", a/b)
     }else{
         console.log('Error');
