@@ -1,37 +1,36 @@
 
 // 2
-// request = prompt('')
-//   function line(request) {
-//     console.log(request.length)
-//   }
-//   line(request)
-// 3
-
-let numA = Number(prompt('Ввести 1 число'))
-let operator = prompt('Symbol')
-let numB = Number(prompt('Ввести 2 число'))
-
-const calc = (a, b) => {
-    if (operator === '+') {
-        console.log(a, "+", b, " = ", a+b)
-    } else if (operator === '-') {
-        console.log(a, "-", b, " = ", a-b)
-    }else if (operator === '*') {
-        console.log(a, "*", b, " = ", a*b)
-    }else if (operator ==='/') {
-        console.log(a, "/", b, " = ", a/b)
-    }else if (numA,numB === 0) {
-        console.log('Error')
-    }else{
-       console.log('Error'); 
-    }
+request = prompt('')
+function line(request) {
+    return request.length
 }
-calc(numA, numB)
-//1 
-// let numc = Number(prompt('Ввести 1 число'))
-// let numd = Number(prompt('Ввести 2 число'))
+console.log(line(request));
+3
 
-// const nums = (c,d)=>{
-//     console.log(Math.min(c,d));
+// let numA = Number(prompt('Ввести 1 число'))
+// let operator = prompt('Symbol')
+// let numB = Number(prompt('Ввести 2 число'))
+
+// const calc = (a, b) => {
+//     if (operator === '+') {
+//         console.log(a, "+", b, " = ", a+b)
+//     } else if (operator === '-') {
+//         console.log(a, "-", b, " = ", a-b)
+//     }else if (operator === '*') {
+//         console.log(a, "*", b, " = ", a*b)
+//     }else if (operator ==='/') {
+//         console.log(a, "/", b, " = ", a/b)
+//     }else{
+//        console.log('Error'); 
+//     }
 // }
-// nums(numc,numd);
+// calc(numA, numB)
+// //1 
+let numc = Number(prompt('Ввести 1 число'))
+let numd = Number(prompt('Ввести 2 число'))
+
+const nums = (c, d) => {
+    return Math.min(c, d)
+}
+console.log(nums(numc, numd));
+
